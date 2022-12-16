@@ -1,3 +1,3 @@
 # JS-Primeiros-Passos
 
-O básico da programação em JavaScript
+O básico da programação em JavaScript.
