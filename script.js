@@ -7,3 +7,5 @@ console.log(age);
 const myName = 'Jéssica'
 console.log(myName);
 // Crie uma constante chamada birthCity e atribua a ela a sua cidade natal.
+const birthCity = 'Guanambi'
+console.log(birthCity);
