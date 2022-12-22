@@ -1,11 +1,12 @@
-let  array = [2, 3, 6, 7, 10, 1];
-let maior = array[0]
-function maiorNumeroIndice(){
-  for(let index = 1; index < array.length; index+=1 ){
-if(array[index] > maior){
-  maior = array[index]
-}
+function indiceDoMaior(numeros) {
+  let indiceMaior = 0;
+  for (let indice in numeros) {
+    if (numeros[indiceMaior] < numeros[indice]) {
+      indiceMaior = indice;
+    }
   }
+
+  return indiceMaior;
 }
 
-console.log(maiorNumeroIndice(maior));
+console.log(indiceDoMaior([2, 3, 6, 7, 10, 1])); //4
