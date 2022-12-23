@@ -5,7 +5,6 @@ function indiceDoMaior(numeros) {
       indiceMaior = indice;
     }
   }
-
   return indiceMaior;
 }
 
